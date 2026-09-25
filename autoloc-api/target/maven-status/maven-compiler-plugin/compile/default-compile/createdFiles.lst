@@ -1,0 +1,15 @@
+tn\esprit\autoloc\domain\Employe.class
+tn\esprit\autoloc\domain\Paiement.class
+tn\esprit\autoloc\domain\ModePaiement.class
+tn\esprit\autoloc\domain\Client.class
+tn\esprit\autoloc\domain\Agence.class
+tn\esprit\autoloc\domain\StatutReservation.class
+tn\esprit\autoloc\domain\Contrat.class
+tn\esprit\autoloc\domain\RoleEmploye.class
+tn\esprit\autoloc\domain\Reservation.class
+tn\esprit\autoloc\AutolocApiApplication.class
+tn\esprit\autoloc\domain\StatutVehicule.class
+tn\esprit\autoloc\domain\CategorieVehicule.class
+tn\esprit\autoloc\domain\Maintenance.class
+tn\esprit\autoloc\domain\Equipement.class
+tn\esprit\autoloc\domain\Vehicule.class
