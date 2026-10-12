@@ -8,7 +8,6 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-
 @Entity
 @Getter
 @Setter
@@ -16,12 +15,13 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class Paiement {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+            @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long idPaiement;
     BigDecimal montant;
     LocalDate datePaiement;
     @Enumerated(EnumType.STRING)
     ModePaiement modePaiement;
+
     @ManyToOne
     Contrat contrat;
 }
